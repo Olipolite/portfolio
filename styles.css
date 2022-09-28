@@ -1,0 +1,77 @@
+
+
+#ostron {
+    max-width: 50%;
+    height: 50%;
+    background-color: #121a34;
+    align-content: center;
+}
+
+h1 {
+    color:#5494a5;
+}
+
+h2 {
+    color:black;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    background: #121a34;
+    display: grid;
+    grid-template-rows: 150px 600px 80px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "main"
+    "footer footer";
+  }
+  
+  header {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+  }
+  
+  
+  main {
+    grid-row: 2 / 3;
+    grid-column: 1 / 3;
+    background-color: #121a34;
+  }
+  
+  footer {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+    background: yellow;
+  }
+
+.flex1 {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px;
+}
+
+.flex2 {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 3px;
+}
+
+.flex3 {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px;
+}
+
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    color: #5494a5
+}
