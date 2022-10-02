@@ -2,6 +2,7 @@
   color:#97D2EC;
   font-size: 30px;
   font-family:'Noto Sans JP', sans-serif;
+  padding-right: 50px;
 }
 
 .secondtext {
@@ -12,6 +13,7 @@
 .logo {
   color:#478C5C;
   font-size: 45px;
+  font-family:'Noto Sans JP', sans-serif;
 }
 
 #ostron {
@@ -32,8 +34,6 @@ h2 {
 /*--------------------GRID--------------------- */
 
 #container {
-  width: 100%;
-  height: 100%;
   background: #121a34;
   display: grid;
   grid-template-rows: 150px 600px 80px;
@@ -62,6 +62,7 @@ footer {
   background: yellow;
 }
 
+
 /*--------------------FLEXBOX--------------------- */
 
 .flex1 {
@@ -89,6 +90,12 @@ footer {
   align-items: center;
   justify-content: flex-end;
   border: 3px;
+}
+
+.scroll1  {
+  display: flex;
+  color: #478C5C;
+  justify-content: flex-end;
 }
 
 /*--------------------NAVIGATION--------------------- */
